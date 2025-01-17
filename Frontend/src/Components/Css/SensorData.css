@@ -1,0 +1,157 @@
+/* Base styles for the container */
+.sensor-data-container {
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+    max-width: 1200px;
+    margin: auto;
+  }
+  
+  /* Form and details section */
+  .form-and-details {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+  }
+  
+  /* Form styling */
+  .sensor-data-form {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .form-section {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .input-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+    gap: 15px;
+  }
+  
+  .input-box {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .submit-button {
+    margin-top: 15px;
+    padding: 10px;
+    background-color: #4e73df;
+    color: white;
+    border: none;
+    cursor: pointer;
+    font-size: 16px;
+    border-radius: 5px;
+    transition: background-color 0.3s;
+  }
+  
+  .submit-button:hover {
+    background-color: #2e59d9;
+  }
+  
+  /* Submitted data section */
+  .submitted-data {
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    padding: 15px;
+  }
+  
+  .data-grid {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 15px;
+  }
+  
+  .data-row {
+    flex: 1 1 300px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    padding: 10px;
+    background-color: #f9f9f9;
+    box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+  }
+  
+  /* Charts container */
+  .charts-container {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+  }
+  
+  .chart-row {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+  }
+  
+  .chart-box {
+    flex: 1;
+    min-width: 300px; /* Ensures the chart boxes have a minimum width */
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    padding: 15px;
+    background-color: #fff;
+    box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+  }
+  
+  .chart-full {
+    display: flex;
+    justify-content: center;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    padding: 15px;
+    background-color: #fff;
+    box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+  }
+  
+  h2 {
+    font-size: 24px;
+    margin-bottom: 10px;
+  }
+  
+  h3 {
+    font-size: 18px;
+    margin-bottom: 10px;
+  }
+  
+  /* Responsive adjustments */
+  @media (max-width: 768px) {
+    .input-grid {
+      grid-template-columns: 1fr;
+    }
+  
+    .chart-row {
+      flex-direction: column;
+    }
+  
+    .chart-box {
+      min-width: unset;
+    }
+  
+    .chart-full {
+      margin-top: 20px;
+    }
+  }
+  
+  @media (max-width: 480px) {
+    .sensor-data-container {
+      padding: 10px;
+    }
+  
+    .submit-button {
+      font-size: 14px;
+    }
+  
+    h2 {
+      font-size: 20px;
+    }
+  
+    h3 {
+      font-size: 16px;
+    }
+  }
+  

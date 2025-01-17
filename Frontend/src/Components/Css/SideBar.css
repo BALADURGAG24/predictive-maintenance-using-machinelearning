@@ -1,0 +1,107 @@
+.sidebar {
+  width: 250px; /* Adjust this width as needed */
+  transition: width 0.3s;
+  /* Add other styles here */
+}
+
+.sidebar.minimized {
+  width: 80px; /* Adjust this width as needed */
+}
+
+.sidebar .icon {
+  font-size: 1.5rem; /* Adjust icon size as needed */
+}
+
+.sidebar .text {
+  display: inline;
+  /* Add other styles here */
+}
+
+.sidebar.minimized .text {
+  display: none;
+}
+
+.toggle-button {
+  position: absolute;
+  top: 10px;
+  left: 10px;
+  /* Add other styles here */
+}
+/* Basic styling for the sidebar */
+.sidebar {
+  height: 100%;
+  width: 200px;
+  background-color: #333;
+  color: #fff;
+  position: fixed;
+  top: 0;
+  left: 0;
+  transition: width 0.3s;
+  overflow-x: hidden;
+}
+
+.sidebar.collapsed {
+  width: 80px;
+}
+
+.toggle-button {
+  position: absolute;
+  top: 10px;
+  right: -30px;
+  background-color: #333;
+  border: none;
+  color: #fff;
+  font-size: 20px;
+  cursor: pointer;
+  transition: right 0.3s;
+}
+
+.sidebar.collapsed .toggle-button {
+  right: -30px;
+}
+
+.sidebar:not(.collapsed) .toggle-button {
+  right: -45px;
+}
+
+ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+li {
+  margin: 20px 0;
+}
+
+.sidebar-link {
+  display: flex;
+  align-items: center;
+  text-decoration: none;
+  color: #fff;
+  padding: 10px 20px;
+  border-radius:30px;
+  margin-top: 30px;
+  transition: background-color 0.3s;
+}
+
+.sidebar-link:hover {
+  background-color: #575757;
+}
+
+.icon {
+  font-size: 20px;
+  margin-right: 15px;
+}
+
+.text {
+  display: inline;
+  transition: opacity 0.3s;
+}
+
+.hidden {
+  display: none;
+}
+
+.sidebar.collapsed .text {
+  opacity: 0;
+}

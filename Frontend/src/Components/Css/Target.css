@@ -1,0 +1,154 @@
+/* Basic styling for the dashboard */
+.target-dashboard {
+  padding: 20px;
+  background-color: #f4f4f4;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.target-dashboard-title {
+  text-align: center;
+  color: #333;
+  font-size: 2rem;
+  margin-bottom: 20px;
+}
+
+.target-chart-panel {
+  background: #fff;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.target-chart-panel-title {
+  font-size: 1.5rem;
+  margin-bottom: 10px;
+  color: #333;
+}
+
+.target-chart-content {
+  position: relative;
+  height: 400px;
+}
+
+.target-loading-state {
+  text-align: center;
+  color: #666;
+  font-size: 1.2rem;
+  line-height: 400px;
+}
+
+.target-chart-subtitle {
+  font-size: 1.2rem;
+  margin-top: 10px;
+  color: #555;
+}
+
+@media (max-width: 768px) {
+  .target-dashboard {
+    padding: 10px;
+  }
+
+  .target-chart-content {
+    height: 300px;
+  }
+
+  .target-chart-panel-title {
+    font-size: 1.2rem;
+  }
+
+  .target-chart-subtitle {
+    font-size: 1rem;
+  }
+}
+
+/* Container for target data */
+.target-container {
+  padding: 20px;
+  background-color: #f4f4f4;
+}
+
+.target-section-title {
+  text-align: center;
+  color: #333;
+  font-size: 2rem;
+  margin-bottom: 20px;
+}
+
+/* Chart containers and items */
+.target-chart-container {
+  background: #fff;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  padding: 20px;
+  margin-bottom: 40px;
+}
+
+.target-metric-container {
+  margin-bottom: 40px;
+}
+
+.target-metric-title {
+  font-size: 1.5rem;
+  margin-bottom: 10px;
+  color: #333;
+}
+
+.target-chart-grid {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+}
+
+.target-chart-item {
+  flex: 1 1 45%; /* Adjust the basis for each item to control the size */
+  min-width: 300px; /* Minimum width for each chart */
+  margin-bottom: 20px;
+}
+
+.target-air-temperature-container {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+
+.target-air-temperature-chart-group {
+  width: 48%;
+}
+.chart-panel {
+  margin-bottom: 20px;
+}
+
+.chart-panel-title {
+  font-size: 1.5em;
+  margin-bottom: 10px;
+}
+
+.chart-content {
+  width: 100%;
+  /* Make sure the container of the chart takes up the full width */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.metric-stats {
+  display: flex;
+  justify-content: space-between; /* Distribute space between the items */
+  align-items: center; /* Align items vertically center */
+  flex-wrap: wrap; /* Allow wrapping to new lines if container is too small */
+  gap: 130px; /* Optional: add gap if items wrap to new line */
+}
+
+.metric-stats p {
+  margin: 0; /* Remove default margins */
+  padding: 5px; /* Add some padding */
+  flex: 1; /* Make each p take up equal space */
+}
+
+.metric-stats p strong {
+  margin-right: 5px; /* Space between the label and value */
+}

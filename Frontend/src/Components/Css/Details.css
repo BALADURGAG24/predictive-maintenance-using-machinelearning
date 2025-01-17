@@ -1,0 +1,102 @@
+.details-container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px;
+    font-family: Arial, sans-serif;
+  }
+  
+  .details-title {
+    text-align: center;
+    font-size: 2rem;
+    margin-bottom: 40px;
+    color: #333;
+  }
+  
+  .details-table-container {
+    margin-bottom: 40px;
+  }
+  
+  .details-table-container h2 {
+    text-align: center;
+    margin-bottom: 20px;
+    font-size: 1.5rem;
+    color: #444;
+  }
+  
+  .details-table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-bottom: 20px;
+  }
+  
+  .details-table th, .details-table td {
+    padding: 12px 15px;
+    border: 1px solid #ddd;
+    text-align: left;
+    font-size: 1rem;
+    color: #333;
+  }
+  
+  .details-table th {
+    background-color: #f4f4f4;
+    font-weight: bold;
+  }
+  
+  .details-table tbody tr:nth-child(even) {
+    background-color: #f9f9f9;
+  }
+  
+  .details-metric-block {
+    margin-bottom: 30px;
+    padding: 20px;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    background-color: #f9f9f9;
+  }
+  
+  .details-metric-block h3 {
+    margin-bottom: 15px;
+    font-size: 1.3rem;
+    color: #333;
+  }
+  
+  .details-metric-table {
+    width: 100%;
+    border-collapse: collapse;
+  }
+  
+  .details-metric-table th, .details-metric-table td {
+    padding: 8px 12px;
+    border: 1px solid #ddd;
+    text-align: left;
+    font-size: 1rem;
+    color: #333;
+  }
+  
+  .details-metric-table th {
+    background-color: #eaeaea;
+    font-weight: bold;
+  }
+  
+  .details-metric-table tbody tr:nth-child(even) {
+    background-color: #f4f4f4;
+  }
+  .metric-air-temperature td:first-child {
+    color: #3498db; /* Blue */
+}
+
+.metric-process-temperature td:first-child {
+    color: #e67e22; /* Orange */
+}
+
+.metric-rotational-speed td:first-child {
+    color: #9b59b6; /* Purple */
+}
+
+.metric-torque td:first-child {
+    color: #e74c3c; /* Red */
+}
+
+.metric-tool-wear td:first-child {
+    color: #7f8c8d; /* Grey */
+}

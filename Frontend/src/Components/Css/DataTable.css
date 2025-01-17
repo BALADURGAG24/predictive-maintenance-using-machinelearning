@@ -1,0 +1,118 @@
+DataTable.css
+
+.data-table {
+  margin: 20px;
+  font-family: Arial, sans-serif;
+}
+
+table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-bottom: 20px;
+}
+
+th, td {
+  border: 1px solid #ddd;
+  padding: 12px;
+  text-align: left;
+}
+
+th {
+  background-color: grey;
+  cursor: pointer;
+}
+
+th.sortable:hover {
+  background-color: #ddd;
+}
+
+th.sortable::after {
+  content: " \u25B2";
+}
+
+th.sortable.sorted-asc::after {
+  content: " \u25B2";
+}
+
+th.sortable.sorted-desc::after {
+  content: " \u25BC";
+}
+
+.filter-row input {
+  width: 100%;
+  box-sizing: border-box;
+  padding: 6px;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+}
+
+.clickable-row {
+  cursor: pointer;
+  transition: background-color 0.2s ease;
+}
+
+.clickable-row:hover {
+  background-color: #f0f0f0;
+}
+
+.pagination {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin: 20px 0;
+}
+
+.pagination-button {
+  background-color: #007bff;
+  color: white;
+  border: none;
+  padding: 10px 20px;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.pagination-button:disabled {
+  background-color: #ccc;
+  cursor: not-allowed;
+}
+
+.pagination-info {
+  font-size: 16px;
+}
+
+.row-details {
+  border: 1px solid #ddd;
+  border-radius: 4px;
+  padding: 15px;
+  background-color: #f9f9f9;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.details-title {
+  margin-top: 0;
+  font-size: 20px;
+  color: #333;
+}
+
+.details-list {
+  list-style-type: none;
+  padding: 0;
+}
+
+.details-item {
+  margin-bottom: 8px;
+}
+
+.details-item strong {
+  color: #555;
+}
+
+.charts24 {
+  margin-top: 20px;
+}
+
+.chart-container24 {
+  width: 100%;
+  max-width: 800px;
+  margin: 0 auto;
+}

@@ -1,0 +1,16 @@
+.insights-container {
+    padding: 20px;
+  }
+  
+  .insights-info, .insights-details {
+    margin-bottom: 20px;
+  }
+  
+  .insights-info h2, .insights-details h2 {
+    color: #4e73df;
+  }
+  
+  .insights-info p, .insights-details p {
+    font-size: 1.2rem;
+  }
+  
