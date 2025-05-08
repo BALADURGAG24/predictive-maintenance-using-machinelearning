@@ -1,7 +1,5 @@
 # predictive-maintenance-using-machinelearning
 
-# Predictive Maintenance using Machine Learning
-
 The **Predictive Maintenance system** leverages machine learning models to predict equipment failures and optimize maintenance schedules. This project uses historical data of machinery performance (such as sensor data, maintenance records, and operational status) to predict when equipment is likely to fail, helping organizations minimize downtime, reduce maintenance costs, and enhance operational efficiency.
 
 The solution includes **data preprocessing**, **feature engineering**, **model training**, and **deployment for real-time predictions**.
