@@ -17,7 +17,7 @@ The solution includes **data preprocessing**, **feature engineering**, **model t
 
 - **Modeling Techniques**:
   - Regression Models: 
-    - Random Forest
+    - Random Forest 
     - XGBoost
     - Linear Regression 
   - Classification Models:
