@@ -16,7 +16,7 @@ The solution includes **data preprocessing**, **feature engineering**, **model t
   - `matplotlib` / `seaborn`: For data visualization.
  
 - **Modeling Techniques**: 
-  - Regression Models: 
+  - Regression Models:  
     - Random Forest   
     - XGBoost
     - Linear Regression 
