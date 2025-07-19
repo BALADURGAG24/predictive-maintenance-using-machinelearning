@@ -7,7 +7,7 @@ The solution includes **data preprocessing**, **feature engineering**, **model t
 ## Technologies Used   
     
 - **Programming Language**:   
-  - Python 
+  - Python  
  
 - **Machine Learning Libraries**:  
   - `scikit-learn`: For model training and evaluation.  
