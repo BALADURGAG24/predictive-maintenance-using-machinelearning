@@ -6,7 +6,7 @@ The solution includes **data preprocessing**, **feature engineering**, **model t
 
 ## Technologies Used   
     
-- **Programming Language**:     
+- **Programming Language**:      
   - Python   
    
 - **Machine Learning Libraries**:   
