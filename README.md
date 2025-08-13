@@ -4,7 +4,7 @@ The **Predictive Maintenance system** leverages machine learning models to predi
 
 The solution includes **data preprocessing**, **feature engineering**, **model training**, and **deployment for real-time predictions**.
 
-## Technologies Used   
+## Technologies Used    
     
 - **Programming Language**:      
   - Python    
