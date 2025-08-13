@@ -10,7 +10,7 @@ The solution includes **data preprocessing**, **feature engineering**, **model t
   - Python    
      
 - **Machine Learning Libraries**:        
-  - `scikit-learn`: For model training and evaluation.       
+  - `scikit-learn`: For model training and evaluation.        
   - `pandas`: For data manipulation and preprocessing.            
   - `numpy`: For numerical operations.         
   - `matplotlib` / `seaborn`: For data visualization.  
