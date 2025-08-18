@@ -13,7 +13,7 @@ The solution includes **data preprocessing**, **feature engineering**, **model t
   - `scikit-learn`: For model training and evaluation.         
   - `pandas`: For data manipulation and preprocessing.             
   - `numpy`: For numerical operations.         
-  - `matplotlib` / `seaborn`: For data visualization.  
+  - `matplotlib` / `seaborn`: For data visualization.   
     
 - **Modeling Techniques**:   
   - Regression Models:  
